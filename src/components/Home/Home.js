@@ -7,7 +7,7 @@ const Home = () => {
         <div className="container pb-8 sm:pb-0">
             <div className="grid grid-cols-1 sm:grid-cols-2">
                 {/* text content section  */}
-                <div className="order-2 sm:order-1 flex flex-col justify-center gap-6">
+                <div className="order-2 sm:order-1 flex flex-col justify-center gap-6 ">
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                         We serve the richest <span className="text-primary font-cursive">Coffe</span>  in the city
                     </h1>
@@ -16,13 +16,13 @@ const Home = () => {
                     </div>
                 </div>
                 {/* image section */}
-                <div className="min-h[450px] flex justify-center items-center order-1 sm:order-2 relative">
+                <div className="min-h[450px] flex justify-center items-center order-1 sm:order-2 relative pb-5">
                     <img src={HeroImg} alt=""
                     className="w-[200px] sm:w-[300px] sm:scale-120 m-auto spin" />
                     <div className="bg-gradient-to-r from-primary to-secondary absolute -top-10 left-8 p-3 rounded-xl">
                         <h1>Hey Coder</h1>
                     </div>
-                    <div className="bg-gradient-to-r from-primary to-secondary absolute -bottom-9 right-8 p-3 rounded-xl">
+                    <div className="bg-gradient-to-r from-primary to-secondary absolute -bottom-10 right-1 p-3 rounded-xl mb-10">
                         <h1>Best Coffe</h1>
                     </div>
 
