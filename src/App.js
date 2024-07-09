@@ -7,6 +7,7 @@ import Services from "./components/Services/Services.js";
 import Banner from "./components/Banner/Banner.js";
 import AppStore from "./components/Appstore/AppStore.js";
 import Testimonial from "./components/Testimonial/Testimonial.js";
+import Footer from "./components/Footer/Footer.js";
 
 const App = () => {
   useEffect(()=>{
@@ -24,6 +25,7 @@ const App = () => {
     <Banner />
     <AppStore />
     <Testimonial />
+    <Footer />
   </div>
   
 }
